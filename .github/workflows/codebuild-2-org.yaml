@@ -3,6 +3,6 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-nif2-org-proj-gha-org-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-org-level-3-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
-      - run: echo "Hello 01-nif2-org-pub-reusable-repo1!"
+      - run: echo "Hello World!!!"
